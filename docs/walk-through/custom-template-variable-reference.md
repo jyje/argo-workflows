@@ -35,6 +35,6 @@ spec:
       container:
         image: docker/whalesay
         command: [cowsay]
-        args: ["{{user.username}}"]
+        args: ["{{inputs.parameters.message}}"]
 
 ```
